@@ -1,10 +1,19 @@
 import React from 'react';
 
+import HomePage from './views/HomePage';
+import Header from './shared/Header';
+import Layout from './shared/Layout';
+
 function App() {
   return (
-    <div className="App">
-      My first github-pages site!
-    </div>
+      <>
+            <Layout>
+
+                <Header />
+                <HomePage/>
+
+            </Layout>
+      </>
   );
 }
 
