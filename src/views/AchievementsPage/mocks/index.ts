@@ -1,0 +1,33 @@
+export const MOCK_TOPICS = [
+    {title: 'Spanish', result: 1},
+    {title: 'English', result: 5},
+    {title: 'tennis', result: 2},
+    {title: 'cooking', result: 7},
+]
+
+export const MOCK_ACHIVES_CIRCLES = [
+    {path: 'fisrtMotocycleRide.png', label: 'First motorcycle ride'},
+    {path: 'firstSushi.jpg', label: 'First selfcooked sushi'},
+    {path: '', label: 'First sund ride'},
+    {path: '', label: 'First EMS training'},
+    {path: '', label: 'First not-guided camp tour'},
+    {path: '', label: 'First '},
+    {path: 'fisrtMotocycleRide.png', label: 'First motorcycle ride'},
+    {path: 'firstSushi.jpg', label: 'First selfcooked sushi'},
+    {path: '', label: 'First sund ride'},
+    {path: '', label: 'First EMS training'},
+    {path: '', label: 'First not-guided camp tour'},
+    {path: '', label: 'First '},
+    {path: 'fisrtMotocycleRide.png', label: 'First motorcycle ride'},
+    {path: 'firstSushi.jpg', label: 'First selfcooked sushi'},
+    {path: '', label: 'First sund ride'},
+    {path: '', label: 'First EMS training'},
+    {path: '', label: 'First not-guided camp tour'},
+    {path: '', label: 'First '},
+    {path: 'fisrtMotocycleRide.png', label: 'First motorcycle ride'},
+    {path: 'firstSushi.jpg', label: 'First selfcooked sushi'},
+    {path: '', label: 'First sund ride'},
+    {path: '', label: 'First EMS training'},
+    {path: '', label: 'First not-guided camp tour'},
+    {path: '', label: 'First '},
+]

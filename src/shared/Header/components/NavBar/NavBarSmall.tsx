@@ -1,5 +1,7 @@
 import * as React from "react";
 
+import { Link } from 'react-router-dom';
+
 import MenuItem from "@mui/material/MenuItem";
 import Typography from "@mui/material/Typography";
 import Menu from "@mui/material/Menu";
@@ -24,9 +26,11 @@ const NavBarSmall = ({anchorElNav, handleCloseNavMenu}: any) => {
             onClose={handleCloseNavMenu}
             sx={{ display: { xs: 'block', md: 'none' } }}
         >
-            {PAGES.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                    <Typography sx={{ textAlign: 'center' }}>{page}</Typography>
+            {PAGES.map(({title, path}) => (
+                <MenuItem key={title} onClick={handleCloseNavMenu}>
+                    <Link to={path}>
+                    <Typography sx={{ textAlign: 'center' }}>{title}</Typography>
+                    </Link>
                 </MenuItem>
             ))}
         </Menu>
